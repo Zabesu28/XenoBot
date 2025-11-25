@@ -7,7 +7,7 @@ import aiohttp
 from discord.ext import commands, tasks
 from dotenv import load_dotenv
 from datetime import datetime, timedelta
-from quiz import fetch_quiz_data
+from cogs.quiz import fetch_quiz_data
 
 load_dotenv()
 
